@@ -5,7 +5,7 @@ import data from 'data/data';
 import { Statistics } from './Statistics/Statistics';
 
 import friends from 'data/friends';
-import { FriendList } from './FrendList/FriendList';
+import { FriendList } from './FriendList/FriendList';
 
 
 export default function App(){
