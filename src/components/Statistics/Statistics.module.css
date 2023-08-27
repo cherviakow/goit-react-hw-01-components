@@ -1,0 +1,19 @@
+.block{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid grey;
+}
+
+.statistics{
+    border: 2px solid grey;
+}
+
+.title{
+    border-bottom: 2px solid grey;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}

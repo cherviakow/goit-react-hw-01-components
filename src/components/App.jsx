@@ -1,17 +1,27 @@
 import user from 'data/user';
 import Profile from "./Profile/Profile";
-import data from './data/data';
+
+import data from 'data/data';
+import { Statistics } from './Statistics/Statistics';
+
 
 export default function App(){
   return (
     <div>
       <Profile
       avatar={user.avatar}
-      name={user.name}
+      username={user.username}
       tag={user.tag}
       location={user.location}
+      stats={user.stats}
       />
+
+<Statistics title="Upload stats" stats={data} />
+
+
     </div>
+
+    
   );
 }
 
