@@ -4,6 +4,9 @@ import Profile from "./Profile/Profile";
 import data from 'data/data';
 import { Statistics } from './Statistics/Statistics';
 
+import friends from 'data/friends';
+import { FriendList } from './FrendList/FriendList';
+
 
 export default function App(){
   return (
@@ -17,6 +20,7 @@ export default function App(){
       />
 
 <Statistics title="Upload stats" stats={data} />
+<FriendList friends={friends} />
 
 
     </div>
