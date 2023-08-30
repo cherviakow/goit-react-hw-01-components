@@ -1,0 +1,43 @@
+.item{
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    width: 250px;
+    box-shadow: 4px 5px 5px grey;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.name{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+
+
+.isOnline{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.isOfline{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}

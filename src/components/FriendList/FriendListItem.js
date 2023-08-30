@@ -1,19 +1,18 @@
 import PropTypes from 'prop-types';
+import css from './FriendList.module.css';
 
-
-export default function FriendList({avatar, name, isOnline}){
-return (
-    <li className={item}>
-        <span className={isOnline ? isOnline : isOnline}></span>
-        <img className={avatar} src={avatar} alt={name} width='48' />
-        <p className={name}>{name}</p>
+export const FriendListItem = ({ avatar, name}) => {
+  return (
+    <li className={css.item}>
+      <span className={css.isOnline ? css.isOnline : css.isOfline}></span>
+      <img className={css.avatar} src={avatar} alt={name} width="48" />
+      <p className={css.name}>{name}</p>
     </li>
-);
+  );
 };
 
-
-FriendList.PropTypes = {
-    avatar: PropTypes.string,
-    name: PropTypes.string,
-    isOnline: PropTypes.bool,
+FriendListItem.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool.isRequired,
 };
