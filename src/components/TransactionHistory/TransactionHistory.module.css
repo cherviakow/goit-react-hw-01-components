@@ -1,0 +1,25 @@
+.table{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 450px;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 4px 5px 5px grey; 
+    
+    
+}
+
+.tableRow,.tbody{
+    padding: 10px;
+    border: 2px solid black;    
+}
+
+.tableRow{
+    background-color: aliceblue;
+}
+
+.type,.amount,.currency{
+    text-transform: capitalize;
+}
+
+

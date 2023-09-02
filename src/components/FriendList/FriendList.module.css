@@ -5,6 +5,9 @@
     margin-bottom: 20px;
     width: 250px;
     box-shadow: 4px 5px 5px grey;
+    margin: 0 auto;
+    text-align: center; 
+    margin-bottom: 10px;
 }
 
 .list{
